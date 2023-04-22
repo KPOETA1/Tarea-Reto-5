@@ -8,6 +8,7 @@ export default function Video() {
     start: playVideo,
     sound: true,
     loop: false,
+    muted: false,
   };
 
   const texture = useVideoTexture("/static/sid.mp4", props);
